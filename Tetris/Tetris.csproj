@@ -26,7 +26,6 @@
     <None Remove="Assets\TileOrange.png" />
     <None Remove="Assets\TilePurple.png" />
     <None Remove="Assets\TileRed.png" />
-    <None Remove="Assets\TileYellow.png" />
   </ItemGroup>
 
   <ItemGroup>

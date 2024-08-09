@@ -31,10 +31,11 @@ namespace Tetris
         {
             Block block = NextBlock;
 
-            while (block.Id == NextBlock.Id)
+            do
             {
                 NextBlock = RandomBlock();
             }
+            while (block.Id == NextBlock.Id) ;
 
             return block;
         }
