@@ -50,6 +50,7 @@ namespace Tetris
         {
             InitializeComponent();
             imageControls = SetupGameCanvas(gameState.GameGrid);
+
         }
 
         private Image[,] SetupGameCanvas(GameGrid grid)
